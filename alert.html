@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function tea(){
+            var name=document.form.name.value;
+            alert("you are highly welcome to my web site dear...")
+            alert(name);
+            if(name=='fatima' || name=='FATIMA' || name=='FATEEMA' ||name=='Fatima' || name=='Fateema'){
+                alert('your name is so beautifull name Fatima👸🏼😍');
+              return true;
+            }
+           
+           
+    }
+
+    </script>
+    <style>
+        #form{
+            height: 200px;
+            width: 310px;
+           background-image: url(teass.JPG);
+            margin-top: 15%;
+            margin-left: 5%;
+            color: chocolate;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            border-radius: 15px;
+        }
+        h3{
+    width: 270px;
+    margin-left: 4%;
+    font-size:large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:chartreuse;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 5px solid;
+    animation: 
+    typing 4s steps(50),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color: transparent}
+}
+@keyframes typing{
+    from {width: 0}
+        }
+#input{
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 23px;
+    width: 230px;
+    border-color: green;
+    border-style: solid;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: coral;
+
+}
+button{
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 35px;
+    width: 150px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: coral;
+}
+img{
+    height: 70px;
+    width: 60px;
+    margin-left:40%;
+    border-radius: 45%;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 200px;
+    color: chartreuse;
+}
+a{
+    color: chartreuse;
+}
+    </style>
+</head>
+<body>
+    <form action="my cv.html" name="form"  onsubmit="return tea()" id="form">
+        <h3>PLEASE ENTER YOUR NAME!</h3>
+        <img src="images.png">
+    <input type="text" id="input" placeholder="enter your name" name="name" required><br>
+    <button>login</button>
+</form>
+<p>|<a href="contact.html">contact me</a>|</p>
+</body>
+</html>
